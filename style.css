@@ -1,3 +1,12 @@
-*{
-  outline: 1px solid red
+
+#main-pic{
+  background-image: url("paragliding.jpg");
+  background-position: center center;
+  background-size: cover;
+
 }
+
+#sky-high{
+
+}
+

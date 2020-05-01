@@ -10,49 +10,160 @@
 </head>
 
 <body>
-  <div class="container-fluid">
 
+  <header class="container-fluid bg-primary">
     <div id="header" class="row">
-      <div class="col-12">
-        <nav class="navbar sticky-top navbar-light bg-primary">
+      <div class="col-12 bg-primary">
+        <nav class="navbar sticky-top navbar-light">
           <a class="navbar-brand" href="#">Sticky top</a>
         </nav>
       </div>
     </div>
+  </header>
 
-    <div id="main_pic" class="row">
-      <div class="main_img" style="background-image: adventure-beach-dawn-daylight-382177 (1).jpg" ;>
+  <div id="main-pic" class="row">
 
-        <div class="col-md-4 col-12">2</div>
-        <div class="col-md-8 col-12">3</div>
+
+    <div class="col-md-4 col-12 py-3">
+
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">How To Reach Us</h5>
+          <form>
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder=" NAME">
+            </div>
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="EMAIL">
+            </div>
+
+          </form>
+          <form class="form-inline">
+            <div class="form-group mb-2">
+              <label for="staticEmail2" class="sr-only"></label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="PHONE">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="ext" class="sr-only">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="ext">
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Add to Email list
+
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary mb-2">SUBMIT</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
       </div>
-    </div>
 
-    <div id="stuff_we_do" class="row">
-      <div class="col-md-6 col-12  order-2 order-md-1">4</div>
-      <div class="col-md-6 col-12 order-1 order-md-2">5</div>
-    </div>
 
-    <div id="Our_mission" class="row">
-      <div class="col-md-3 col-12">a</div>
-      <div class="col-md-9 col-12">b</div>
-    </div>
 
-    <div id="reviews" class="row">
-      <div class="order-md-1 order-2 col-md-4 col-12">reviews 1</div>
-      <div class="order-md-2 order-1 col-md-4 col-12">reviews 2</div>
-      <div class="order-md-3 order-3 col-md-4 col-12">reviews 3</div>
     </div>
-
-    <div id="awesome_phrase" class="row">
-      <div class="-12">Phrase</div>
-    </div>
-
-    <div id="footer" class="row">
-      <div class="-12">footer</div>
+    <div id="sky-high" class="col-md-8 col-12 m-auto text-light text-shadow">
+      <h2>SKY HIGH</h2>
+      <H5 class>You will experience new heights. Too infinity and beyond and all that garbage. bring your own reserve
+        because pickles.</H5>
     </div>
 
   </div>
+
+  <div id="stuff_we_do" class="row bg-primary">
+    <div class="col-md-6 col-12  order-2 order-md-1 text-light text-shadow light">
+      <h3>SIMPLY THE BEST</h3>
+      <h3>Better than all the rest</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea esse eius saepe nam fugiat iste adipisci culpa
+        inventore quos libero. Quam corporis exercitationem magnam, praesentium expedita atque sunt totam ipsam.</p>
+    </div>
+    <div class="col-md-6 col-12 order-1 order-md-2 card bg-primary">
+
+      <div class="card m-auto d-flex">
+        <div class="cardbody shadow rounded card-outline light shadow">
+
+          <h6><i class="fas fa-running"></i> You Run</h6>
+          <h6><i class="fas fa-dumpster-fire"></i> You Jump</h6>
+          <h6><i class="fas fa-sliders-h"></i> You Slide</h6>
+          <h6><i class="fas fa-mountain"></i> Hit The Bump And Take A Dive</h6>
+          <h6><i class="fab fa-adversal"></i> This Site Makes Tons Of Sense I Know</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="Our_mission" class="row">
+    <div class="col-md-3 col-12 d-flex">
+      <img src="//placehold.it/200x300" alt="" class=img-fluid>
+    </div>
+    <div class="col-md-9 col-12 m-auto">
+      <H1>Some large writing that really gets the point accross</H1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis voluptatem totam dicta doloribus.
+        Quis eveniet consectetur nihil, corporis repellat omnis consequatur quidem culpa incidunt assumenda est! Aut,
+        repudiandae vero?</p>
+      <button class="btn btn-dark text-light align-self flex-end">click for more</button>
+    </div>
+  </div>
+
+  <div id="reviews" class="row">
+    <div class="order-md-1 order-2 col-md-4 col-12">
+      <div class="card d-flex card-outline dark shadow">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="order-md-2 order-1 col-md-4 col-12">
+      <div class="card d-flex card-outline dark shadow">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="order-md-3 order-3 col-md-4 col-12">
+      <div class="card d-flex card-outline dark shadow">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="awesome_phrase" class="row bg-primary text-light">
+    <div class="col-12">
+      <H1><strong>WHY WOULDN'T YOU LIKE US?</strong></H1>
+      <p>As if you cant tell we think we are pretty great and we think you should too</p>
+    </div>
+  </div>
+
+  <div id="footer" class="row">
+    <div class="col-12">
+      <h3>oh by the way this spot just needed filled because people say so</h3>
+    </div>
+  </div>
+
+
 
 
 </body>
