@@ -6,7 +6,24 @@
 
 }
 
-#sky-high{
-
+@media screen and (max-width: 767px) {
+  #sky-high{
+    display: none;
+  }
 }
 
+#contact-card{
+  max-width: 18rem;
+}
+
+#slipAndSlide{
+  max-width: 20rem;
+}
+
+#bestReview{
+  height: 15rem;
+}
+
+#less-great-reviews{
+  max-height: 10rem;
+}
