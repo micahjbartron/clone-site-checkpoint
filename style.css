@@ -6,9 +6,22 @@
 
 }
 
+@font-face {
+  font-family: customFont;
+  src: url(ShadowsIntoLight-Regular.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 @media screen and (max-width: 767px) {
   #sky-high{
     display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #bouncy-card{
+    margin-bottom: -3rem!important;
   }
 }
 
@@ -24,6 +37,9 @@
   height: 15rem;
 }
 
-#less-great-reviews{
-  max-height: 10rem;
-}
+#reviews{
+  font-family: customFont;
+
+} 
+
+
