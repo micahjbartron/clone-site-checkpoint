@@ -21,8 +21,12 @@
 
 @media screen and (min-width: 769px) {
   #bouncy-card{
-    margin-bottom: -3rem!important;
+    margin-bottom: -2rem!important;
   }
+} 
+
+#primary-color{
+  background-color: #5291cc;
 }
 
 #contact-card{
